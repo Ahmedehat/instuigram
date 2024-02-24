@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 5.2', '>= 5.2.8.1'
 # Use postgres as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -39,7 +39,7 @@ gem 'jquery-rails'
 gem "font-awesome-rails"
 gem 'bootsnap', '~> 1.3.0', require: false
 gem 'mini_magick'
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
